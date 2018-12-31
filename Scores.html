@@ -1,0 +1,213 @@
+
+
+<html>
+	<head>
+		<title>Scores</title>
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<style type="text/css">
+	
+		body{
+			 background-color: #0C023B;
+			}
+		.teamlogo{
+		border-radius: 5px;
+		width:15%;
+		<!--position:relative;left:25%;-->
+			}
+		.teamlogo.teamlogol
+		{
+			position:relative;left:20%;
+		}
+		.teamlogo.teamlogoc
+		{
+			position:relative;left:25%;
+		}
+		.teamlogo.teamlogor
+		{
+			position:relative;left:30%;
+		}	
+		form
+		{
+			display:none;
+		}
+		
+
+
+		    ul{
+		        padding: 0;
+		        list-style: none;
+		        background: #0C023B;
+		    }
+		    ul li{
+		        display: inline-block;
+		        position: relative;
+		        line-height: 21px;
+		        text-align: left;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 8px 25px;
+		        color: White;
+		        text-decoration: none;
+		        font-family: 'Oswald', sans-serif;
+
+		    }
+		    ul li a:hover{
+		        color: Red;
+		        background: Black;
+		        font-family: 'Oswald', sans-serif;
+
+
+		    }
+		    ul li ul.dropdown{	
+		        min-width: 100%; /* Set width of the dropdown */
+		        background: #0C023B;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		        font-size: 14px;
+		    }
+		    ul li:hover ul.dropdown{
+		        display: block;	/* Display the dropdown */
+		    }
+		    ul li ul.dropdown li{
+		        display: block;
+		    }
+		    #dropdown {
+		    	position: relative;
+		    	text-align: right;
+		    	box-sizing: border-box;
+		    	right:10%;
+		    	padding-top: 10px;
+		    	padding-bottom: 10px;
+
+		    }
+		  
+	</style>	
+		
+	</head>
+
+	<body>
+		<div class="Spacer" style="height:25px"></div>
+		<div id = "dropdown">
+			<ul>
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="about.html">ABOUT</a></li>
+		        <li>
+		            <a href="work.html">STATS</a>
+		            <ul class="dropdown">
+		                <li><a href="Scores.html">SCORES</a></li>
+		                <li><a href="records.html">RECORDS</a></li>
+		               
+		            </ul>
+		        </li>
+		        <li><a href="schedule.html">SCHEDULE</a></li>
+		        <li><a href="Scores.html">MATCH RESULTS</a></li>
+		        <li><a href="blog.html">BLOG</a></li>
+
+		    </ul>
+		</div>
+		<div style= "width:23%; height: 49.5px; position: absolute; padding-left: 10%;box-sizing: border-box;top:45px;">
+			<img src = "logo1.png" width = "61.075" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 20px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>
+		<form id="myForm" action="Results.php" >
+		  <input id="teamname" type="text" name="team" value="helpme"><br>
+		 
+		 
+		</form>
+		<div>
+		<img src="Logo/Atlanta_Hawks.png" class="teamlogo teamlogol" id="ATL">
+		<img src="Logo/Brooklyn_Nets.png" class="teamlogo teamlogoc" id="BKN">
+		<img src="Logo/Boston_Celtics.png" class="teamlogo teamlogor" id="BOS">
+		
+		</br></br>
+
+		<img src="Logo/Charlotte_Hornets.png" id="CHA" class="teamlogo teamlogol">
+		<img src="Logo/Chicago_Bulls.png" id="CHI" class="teamlogo teamlogoc">
+		<img src="Logo/Cleveland_Cavaliers.png" id="CLE" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Dallas_Mavericks.png" id="DAL" class="teamlogo teamlogol">
+		<img src="Logo/Denver_Nuggets.png" id="DEN" class="teamlogo teamlogoc">
+		<img src="Logo/Detroit_Pistons.png" id="DET" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Golden_State_Warriors.png" id="GSW" class="teamlogo teamlogol">
+		<img src="Logo/Houston_Rockets.png" id="HOU" class="teamlogo teamlogoc">
+		<img src="Logo/Indiana_Pacers.png" id="IND" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Los_Angeles_Clippers.png" id="LAC" class="teamlogo teamlogol">
+		<img src="Logo/Los_Angeles_Lakers.png" id="LAL" class="teamlogo teamlogoc">
+		<img src="Logo/Memphis_Grizzlies.png" id="MEM" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Miami_Heat.png" id="MIA" class="teamlogo teamlogol">
+		<img src="Logo/Milwaukee_Bucks.png" id="MIL" class="teamlogo teamlogoc">
+		<img src="Logo/Minnesota_Timberwolves.png" id="MIN" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/New_Orleans_Pelicans.png" id="NOP" class="teamlogo teamlogol">
+		<img src="Logo/New_York_Knicks.png" id="NYK" class="teamlogo teamlogoc">
+		<img src="Logo/Oklahoma_City_Thunder.png" id="OKC" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Orlando_Magic.png" id="ORL" class="teamlogo teamlogol">
+		<img src="Logo/Philadelphia_76ers.png" id="PHI" class="teamlogo teamlogoc">
+		<img src="Logo/Phoenix_Suns.png" id="PHX" class="teamlogo teamlogor">
+		
+		</br></br>
+
+		<img src="Logo/Portland_Trail_Blazers.png" id="POR" class="teamlogo teamlogol">
+		<img src="Logo/Sacramento_Kings.png" id="SAC" class="teamlogo teamlogoc">
+		<img src="Logo/San_Antonio_Spurs.png" id="SAS" class="teamlogo teamlogor">
+		
+		</br></br>
+	
+		<img src="Logo/Toronto_Raptors.png" id="TOR" class="teamlogo teamlogol">
+		<img src="Logo/Utah_Jazz.png" id="UTA" class="teamlogo teamlogoc">
+		<img src="Logo/Washington_Wizards.png" id="WAS" class="teamlogo teamlogor">
+		</div>
+		
+		
+		<script>
+		
+		var imgEl = document.querySelectorAll("img");
+		var obj={};
+		console.log(imgEl);
+		console.log(document.querySelector("img"));
+		//document.querySelector("img").addEventListener("click",function(){{alert("hello")}},false);
+		
+		//console.log("hello",document.getElementById("myForm"));
+		obj.link = function()
+		{
+		//alert("hell1o");
+		console.log(document.getElementById("myForm").value);
+		document.getElementById("teamname").value=this.id;
+		console.log(document.getElementById("teamname").value);
+		document.getElementById("myForm").submit(); 
+		
+		//window.location.href="Session.php";
+		
+		}
+		
+		for(var i =0;i<imgEl.length;i++)
+		{
+		console.log(typeof(imgEl[i]));
+		//imgEl[i].addEventListener("click",function(){{alert("hello")}},false);
+		imgEl[i].addEventListener("click",obj.link,false);
+		}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,321 @@
+<html>
+	<head>
+		<title>Blog</title>
+		<link type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+
+		<style type="text/css">
+		    ul{
+		        padding: 0;
+		        list-style: none;
+		        background: Black;
+		    }
+		    ul li{
+		        display: inline-block;
+		        position: relative;
+		        line-height: 21px;
+		        text-align: left;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 8px 25px;
+		        color: white;
+		        text-decoration: none;
+		        font-family: 'Oswald', sans-serif;
+
+		    }
+		    ul li a:hover{
+		        color: Red;
+		        background: Black;
+		        font-family: 'Oswald', sans-serif;
+
+
+		    }
+		    ul li ul.dropdown{
+		        min-width: 100%; /* Set width of the dropdown */
+		        background: Black;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		        font-size: 14px;
+		    }
+		    ul li:hover ul.dropdown{
+		        display: block;	/* Display the dropdown */
+		    }
+		    ul li ul.dropdown li{
+		        display: block;
+		    }
+		    #dropdown {
+		    	position: relative;
+		    	text-align: right;
+		    	box-sizing: border-box;
+		    	right:10%;
+		    	padding-top: 10px;
+		    	padding-bottom: 10px;
+		    }
+		   #main{
+				background-color: lightgrey;
+				width: 590px;
+				height: 3620px;
+				padding-right:  380px;
+				border-radius: 10px;
+				z-index: -1;
+			}
+			#signup{
+				background-color: lightgrey;
+				height: 400px;
+				width: 310px;
+				position:relative;
+				top: 100px;
+				left:20px;
+				border-radius: 10px;
+			}
+			#submit{
+				height: 120px; 
+				width: 310px; 
+				background-color: lightgrey;
+				position: relative;
+				left: 20px;
+				top: 70px;">
+			}
+			#about{
+				background-color: black; 
+				position: relative;
+				height: 50px;
+				width: 300px;
+				top:5px;
+				left: 5px;	
+			}
+			#social{
+				height: 80px;
+				width: 80px;
+			}
+			#blog{
+				height:500px;
+				width: 900px;
+				top: 10px;
+				position: relative;
+				left: 25px;
+				border: black 1px solid;  	
+				border-bottom: black 6px solid;
+				border-right: black 4px solid;
+				border-top: black 2px solid;		
+			}
+			#heading{
+				text-align: center;
+				font-size: 35px;
+				font-family: 'Oswald',sans-serif;
+				position: relative;
+				bottom: 30px;
+			}
+			#setting{
+				position: relative;
+				bottom: 50px;
+			}
+			#subject{
+				position: relative;
+				bottom: 50px;
+				font-size: 20px;
+				left: 25px;
+				font-family: Arial;
+				
+			}
+		
+		</style>
+</head>
+<body style="background-color: white;">
+	<div id="head" style="height: 120px;width: 100%; position:fixed;right:0px;top: 0px; background-color: black;">
+		<div class="Spacer" style="height:25px"></div>
+		<div id = "dropdown">
+			<ul>
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="about.html">ABOUT</a></li>
+		        <li>
+		            <a href="work.html">STATS</a>
+		            <ul class="dropdown">
+		                <li><a href="Scores.html">SCORES</a></li>
+		                <li><a href="records.html">RECORDS</a></li>
+		  
+		            </ul>
+		        </li>
+		        <li><a href="schedule.html">SCHEDULE</a></li>
+		        <li><a href="Scores.html">MATCH RESULTS</a></li>
+		        <li><a href="blog.html">BLOG</a></li>
+
+		    </ul>
+		</div>
+		<div style= "width:23%; height: 49.5px; position: fixed; padding-left: 10%;box-sizing: border-box;top:45px;">
+			<img src = "logo.png" width = "61.075" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 20px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>
+		</div>
+
+
+
+	<div id="left" style="position: fixed; bottom: 70px;">
+		<div id="signup" >
+			<div id="about">
+				<p style="color: white; font-size: 35px;text-align: center;">About Court Warrior</p>			
+			</div>
+			<!--Warning! Usage of pre tag! Dont remove the emptyspaces and empty lines!-->
+			<pre style="font-size: 20px; font-family:'Oswald', sans-serif; position: relative; right: 50px ; bottom: 40px">	
+	    	Court Warrior lets you read all your 
+	    	favorite blogs and all the trending 
+	    		events in one place.
+
+		<img src="images/likes.jpg" style="height: 80px; width: 250px;  border-radius: 10px;" onclick="Call('https://en-gb.facebook.com/')">
+		
+		<img src="images/button.png" style="height: 80px; width: 250px; border-radius: 10px;" onclick="Call('https://en-gb.facebook.com/')">
+			</pre>
+		</div>
+
+		<div id="submit">
+			<div id="about">
+				<p style="color: white; font-size: 35px; text-align: center;">Submit Your Blog</p>			
+			</div>
+			<input type="button" value="Submit Blog" style="color: white;font-size: 35px;font-family: 'Oswald',sans-serif; background-color: green; position: relative;top:10px;left: 50px; height: 60px; width: 220px; border-radius: 10px;" onclick="Call('signup.php')">
+
+		</div>
+	</div>
+
+
+
+	<div id="main" style="position: relative;left: 350px; top: 130px;">
+		<p style="color:solid black; font-size: 30px;font-family: 'Oswald', sans-serif;text-align: center; position: relative;width: 900px;" >
+				Top 10 Blogs, Every Basketball Fan Must Follow!</p>
+		<p style="color:grey; font-size: 15px; position:relative;left:375px;bottom: 35px;">Last Updated on 24<sup>th</sup> October 2017</p>
+		<div  style="position: relative;left: 180px;">
+			<img src="images/buffer.png" id="social" onclick="Call('https://buffer.com/signin')">
+			<img src="images/facebook.png" id="social" onclick="Call('https://en-gb.facebook.com/')">
+			<img src="images/linkedin.png"  id="social" onclick="Call('https://www.linkedin.com/')">
+			<img src="images/reddit.png"  id="social" onclick="Call('https://www.reddit.com/login')">
+			<img src="images/twitter.png" id="social" onclick="Call('https://twitter.com/login')">
+			<img src="images/google.png" id="social" onclick="Call('https://aboutme.google.com/')">
+			<img src="images/instagram.png" style="border-radius:20px;" id="social" onclick="Call('https://www.instagram.com/?hl=en')">
+		</div>
+		<br>
+		<br>
+		<img src="images/basket.jpg" style="height:650px; width: 900px; position: relative; left: 25px;">
+		<label style="position: relative; left: 25px;font-family: 'Oswald', sans-serif; ">Basketball Blogs Top List</label>
+		<br>
+		<p style="width: 900px; position: relative;bottom:15px; left: 25px;font-family: 'Oswald', sans-serif; ">The Best Basketball blogs from thousands of Basketball blogs in our index using search and social metrics. Data will be refreshed once a week.</p>
+		<p style="width: 900px; position: relative; bottom: 20px;left: 25px;font-family: 'Oswald', sans-serif; ">If your blog is selected in this list, you have the honour of displaying this Badge (Award) on your blog.</p>
+		<input type="button" value="Submit Your Blog" style="color: white;font-size: 20px;font-family: 'Oswald',sans-serif; background-color: green; position: relative;left: 25px; height: 35px; width: 180px; border-radius: 10px;" onclick="Call('signup.php')">
+
+
+
+
+		<div id="blog">
+			<p id="heading">1.Heat: James Johnson struggling this season</p>
+			<p id="setting">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<img src="images/james.jpg" height="200" width="200" align="left" style="position: relative; bottom: 50px;left: 25px;">
+			<pre id="subject">
+A key member of the Miami Heat, after receiving a relatively huge new 
+contract, has been struggling this season.
+
+Here's the South Florida Sun Sentinel reporting:
+			
+Forward James Johnson continues to struggle. He was 1-for-5 in 27 
+minutes Wednesday.Johnson, who signed a four-year, $60 million contract,
+has been unable to come close to his production of last season, and he 
+is hard-pressed for an answer.
+"I'm killing myself every night, every day.It's just been terrible performances out of me and not just
+ from an offensive standpoint, the defense," he said. 
+"Our second unit,Tyler and me, we should come in and have that same affect we had last year and
+ we haven't been able to do that."
+
+			</pre>
+		</div>
+
+		<div id="blog">
+			<p id="heading">2.Mike Conley out for atleast two weeks with injury</p>
+			<p id="setting">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<img src="images/mike.jpg" height="200" width="200" align="left" style="position: relative; bottom: 50px;left: 25px;">
+			<pre id="subject">
+The Memphis Grizzlies say that point guard Mike Conley will undergo 
+therapy and treatment to help promote healing and alleviate soreness in
+his left heel and Achilles following consultations with physicians and
+the Grizzlies' medical staff. There is no timetable for his return at this
+time. Further updates will be provided in approximately two weeks.
+
+Conley (6-1, 175) has appeared and started in 12 of the Grizzlies' first 14
+games this season and has averaged 17.1 points, 2.3 rebounds, 4.1 assists
+and 1.00 steals in 31.1 minutes in his 11th NBA season (all with Memphis).
+			</pre>
+		</div>
+
+		<div id="blog">
+			<p id="heading">3.Thunder an excellent Defense team so far.</p>
+			<p id="setting">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<img src="images/thunder.jpg" height="200" width="200" align="left" style="position: relative; bottom: 50px;left: 25px;">
+			<pre id="subject">
+Logic suggested that the Thunder, who boast three offensive stars,would be 
+better offensively than defensively. But through these first three weeks 
+of the regular season, it's been the reverse. 
+Here's the Oklahoman with more:
+
+The focus came right away, to hear the Thunder tell it.
+
+Statistically, the Thunder ranks among the NBA's best defensive teams. It 
+allows 97.6 points per 100 possessions, the second-best mark in the league.
+No team gives up fewer points in the paint than the Thunder's 37.6 per game.
+
+			</pre>
+		</div>
+
+		<div id="blog">
+			<p id="heading">4.Dion Waiters misses game due to birth of daughter</p>
+			<p id="setting">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<img src="images/dion.jpg" height="200" width="200" align="left" style="position: relative; bottom: 50px;left: 25px;">
+			<pre id="subject">
+Heat guard Dion Waiters is out today, for a great, joyous reason. Dion 
+Waiters was away from the Miami Heat for Sunday's game against the Los 
+Angeles Clippers at Staples Center for the birth of his daughter.
+
+Waiters remained overnight in Denver after Friday's loss to the Denver 
+Nuggets at the Pepsi Center and then returned Saturday to South Florida.
+
+He then posted a photo Sunday on his Instagram feed holding the hand of
+his newborn daughter, Dior Raina Waiters, with the caption, "Welcome to 
+this crazy world baby girl."
+			</pre>
+		</div>
+
+		<div id="blog">
+			<p id="heading">5.John Crotty to do Heat TV next season</p>
+			<p id="setting">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<img src="images/john.jpeg" height="200" width="200" align="left" style="position: relative; bottom: 50px;left: 25px;">
+			<pre id="subject">
+Here's the Palm Beach Post reporting Heat broadcast news that will take 
+effect next season:
+
+John Crotty is moving over from radio to television. Crotty will become the
+Miami Heat's next analyst for all TV broadcasts beginning next season, the 
+team announced today. 
+
+Crotty, who played 48 games for the Heat in 1996-97, has been a member
+of the broadcast team since January 2005 when he became the Heat's 
+radio analyst.He will become the seventh person to serve as the TV analyst for the franchise
+and the second former player.
+
+			</pre>
+		</div>
+	
+
+	<h3 style="position: relative;left: 25px;">Want to publish your own blog? <a href="signup.php"> Get More Information</a></h3>
+	</div>
+
+	<script type="text/javascript">
+		function Call(url){
+			window.location = url;
+
+		}
+
+	</script>
+</body>
+</html>
+

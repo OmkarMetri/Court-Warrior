@@ -1,0 +1,253 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+
+		<style type="text/css">
+		    ul{
+		        padding: 0;
+		        list-style: none;
+		        background: Black;
+		    }
+		    ul li{
+		        display: inline-block;
+		        position: relative;
+		        line-height: 21px;
+		        text-align: left;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 8px 25px;
+		        color: White;
+		        text-decoration: none;
+		        font-family: 'Oswald', sans-serif;
+
+		    }
+		    ul li a:hover{
+		        color: Red;
+		        background: Black;
+		        font-family: 'Oswald', sans-serif;
+
+
+		    }
+		    ul li ul.dropdown{
+		        min-width: 100%; /* Set width of the dropdown */
+		        background: Black;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		        font-size: 14px;
+		    }
+		    ul li:hover ul.dropdown{
+		        display: block;	/* Display the dropdown */
+		    }
+		    ul li ul.dropdown li{
+		        display: block;
+		    }
+		    #dropdown {
+		    	position: relative;
+		    	text-align: right;
+		    	box-sizing: border-box;
+		    	right:10%;
+		    	padding-top: 10px;
+		    	padding-bottom: 10px;
+
+		    }
+		    .button {
+				  display: inline-block;
+				  border-radius: 4px;
+				  background-color: #B00D0D;
+				  border: none;
+				  color: #FFFFFF;
+				  text-align: center;
+				  font-size: 28px;
+				  padding: 20px;
+				  width: 200px;
+				  transition: all 0.5s;
+				  cursor: pointer;
+				  margin: 5px;
+				}
+
+			.button span {
+				  cursor: pointer;
+				  display: inline-block;
+				  position: relative;
+				  transition: 0.5s;
+				}
+
+			.button span:after {
+				  content: '\00bb';
+				  position: absolute;
+				  opacity: 0;
+				  top: 0;
+				  right: -20px;
+				  transition: 0.5s;
+				}
+
+			.button:hover span {
+				  padding-right: 25px;
+				}
+
+			.button:hover span:after {
+				  opacity: 1;
+				  right: 0;
+				}
+			table {
+			    border-collapse: collapse;
+			    width: 80%;
+
+			}
+
+			td {
+			    padding: 8px;
+			    text-align: left;
+			    border-bottom: 3px solid #F3F3F3;
+			    background-color: White;
+			    color:#20232d;
+			    font-family: 'Open Sans', sans-serif;
+			    font-size: 12px;
+
+			}
+			th{
+				font-weight: normal;
+				text-align: left;
+				color:grey;
+				padding:8px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Spacer" style="height:25px"></div>
+		<div id = "dropdown">
+			<ul>
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="about.html">ABOUT</a></li>
+		        <li>
+		            <a href="work.html">STATS</a>
+		            <ul class="dropdown">
+		                <li><a href="Scores.html">SCORES</a></li>
+		                <li><a href="records.html">RECORDS</a></li>
+		             
+		            </ul>
+		        </li>
+		        <li><a href="schedule.html">SCHEDULE</a></li>
+		        <li><a href="Scores.html">MATCH RESULTS</a></li>
+		        <li><a href="blog.html">BLOG</a></li>
+
+		    </ul>
+		</div>
+		<div style= "width:23%; height: 49.5px; position: absolute; padding-left: 10%;box-sizing: border-box;top:45px;">
+			<img src = "logo1.png" width = "61.075" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 20px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>
+		<img src = "img/kobe.png" style="position: relative;left:30%;width:70%;">
+		<div  style="width:605;position: relative; bottom:500px; left:10%">
+
+			<p style="color:White; font-family: 'Oswald', sans-serif; font-size: 55px;">PAIN IS TEMPORARY, SUCCESS IS FOREVER</p>
+			<p style="color:#919191; font-family: 'Open Sans', sans-serif; font-size: 20px; position: absolute;top:150px;">Founded in 2017, Court Warrior is the hottest website for all your basketball news.	</p>
+			<div style="height:25px;"></div>
+			<a href="about.html"><button class="button" style="vertical-align:middle"><span style="font-size: 16px;">MORE ABOUT US </span></button></a>
+
+
+		</div>
+		<div class="bg" style="height:500px;background-color: #F3F3F3;position: relative;bottom:50%;"">
+			<img src = "img/cavs.png" height = "200" style = "position: absolute; top:150px;">
+			<img src = "img/timb.png" height = "240" style = "position: absolute; top:130px;right:25px;">
+			<div class = "score" style = "height: 80px; width: 190px; background-color: White;position: absolute; left: 45%;top:47.5%;">
+				<p style="color:#0712A0; font-family: 'Oswald', sans-serif; font-size: 50px; position: relative; bottom: 47px;	 left:25px;">107-98</p>
+			</div>
+
+			<p style="color:grey; font-family: 'Open Sans', sans-serif; font-size: 16px; position: absolute; left: 44%; top: 22%;">Monday, 23rd OCT, 8:00 PM</p>
+			<p style="color:grey; font-family: 'Open Sans', sans-serif; font-size: 16px; position: absolute; left: 40%; top: 32%;">TARGET CENTER, MINNEAPOLIS, MINNESOTA</p>
+			<p style="color:grey; font-family: 'Open Sans', sans-serif; font-size: 16px; position: absolute; left: 48%; top: 62%;">FINAL RESULTS</p>	
+
+			
+
+		</div>
+		<div style="position: relative; background-color: White; bottom:380px; height: 500px; ">
+				<img src = "img/knight.png" style="position: relative; left:60%;top:15%;">
+				<p style="position: absolute; font-family: 'PT Serif', serif; color: #c91f30; bottom:60%; left:15%; font-size: 80px; ">"</p>
+				<div style="width: 200px; position: absolute;top: 5%; left:18%";">
+					<p style="position: absolute;font-family: 'PT Serif', serif; color: #20232d; font-style:italic;font-size: 22px;"" >
+						The nature of basketball: Things happen, people move- relationships sever, relationships grow.
+					</p>
+					<p style="font-size:14px; font-family:'Open Sans', sans-serif; color: grey; position: relative;top:210px;">Brandon Knight<br/><br/>
+					<span style="font-size: 13px">
+					When asked about Eric Bledsoe's trade request</span></p>
+
+				</div>
+		</div>
+
+		<div style="position: relative;background-color:#F3F3F3; height: 450px; bottom: 420px;">
+			<p style="text-align: center;font-size: 39px; font-family: 'Oswald', sans-serif; padding-top:3%; color: #20232d"><b>SCHEDULE</b></p>
+			<table align = "center" style="border-color:#F3F3F3;">
+			  <tr>
+			    <th>Date</th>
+			    <th>Home</th>
+			    <th>Away</th>
+			    <th>Time</th>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			</table>
+			<a href ="schedule.html" style="text-decoration: none;color:grey; font-size: 18px; position: relative; top:40px; left:10%;"> See More>></a>
+		</div>
+
+		<div style="background-color: #110026; position: relative; bottom:440px; height:550px;">
+		</div>
+		<div style="height:1px;position: relative;bottom:1000px;background-color: #110026	;">
+			<p style="color:White; font-family: 'Oswald', sans-serif; font-size: 55px; position: absolute; left:39%;">FURTHER LINKS</p>
+			<a href="blog.html"><img src = "img/write.jpg" width =  "300px" style = "position: absolute; top: 200px; left:10%;"></a>
+			<a href="work.html"><img src = "img/stats.jpg" height = "220px" width = "300px" style = "position: absolute; top: 200px; left:40%;"></a>
+			<a href="about.html"><img src = "img/contact.jpg" height = "220px" width = "300px"  style = "position: absolute; top: 200px; left:70%;"></a>
+			<a href = "blog.html"><p style="color:White; font-family: 'Open Sans', sans-serif; font-size: 28px; position: absolute; left: 17%; top: 430px;">BLOG</p></a>
+			<a href = "work.html"><p style="color:White; font-family: 'Open Sans', sans-serif; font-size: 28px; position: absolute; left: 46%; top: 430px;">STATISTICS</p></a>
+			<a href = "about.html"><p style="color:White; font-family: 'Open Sans', sans-serif; font-size: 28px; position: absolute; left: 75%; top: 430px;">ABOUT US</p></a>	
+			<p style = "font-size: 16px; color:grey;position: relative;top: 870px;left:43%; width: 230px;text-align: center">© Copyright | CourtWarrior 2017. All Rights Reserved.</p>
+			<p style = "font-size: 16px; color:grey;position: relative;top: 900px;left:41%; width: 300px;text-align: center">Developed by Naveen, Neelesh and Omkar.</p>
+
+		</div>
+
+		<div style = "height: 1px;background-color:Black; position: relative; bottom:300px;">
+		<div style= "width:23%; height: 49.5px; position: absolute; padding-left: 10%;box-sizing: border-box;top:80%;left:35%">
+			<img src = "logo1.png" height = "70" width = "70	" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 24px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>			
+
+		</div>
+
+	</body>
+</html>

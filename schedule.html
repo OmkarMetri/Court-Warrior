@@ -1,0 +1,332 @@
+<html>
+	<head>
+		<title>Schedule</title>
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+
+		<style type="text/css">
+		    ul{
+		        padding: 0;
+		        list-style: none;
+		        background: Black;
+		    }
+		    ul li{
+		        display: inline-block;
+		        position: relative;
+		        line-height: 21px;
+		        text-align: left;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 8px 25px;
+		        color: White;
+		        text-decoration: none;
+		        font-family: 'Oswald', sans-serif;
+
+		    }
+		    ul li a:hover{
+		        color: Red;
+		        background: Black;
+		        font-family: 'Oswald', sans-serif;
+
+
+		    }
+		    ul li ul.dropdown{
+		        min-width: 100%; /* Set width of the dropdown */
+		        background: Black;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		        font-size: 14px;
+		    }
+		    ul li:hover ul.dropdown{
+		        display: block;	/* Display the dropdown */
+		    }
+		    ul li ul.dropdown li{
+		        display: block;
+		    }
+		    #dropdown {
+		    	position: relative;
+		    	text-align: right;
+		    	box-sizing: border-box;
+		    	right:10%;
+		    	padding-top: 10px;
+		    	padding-bottom: 10px;
+
+		    }
+		  table {
+			    border-collapse: collapse;
+			    width: 80%;
+
+			}
+
+			td {
+			    padding: 8px;
+			    text-align: left;
+			    border-bottom: 3px solid #F3F3F3;
+			    background-color: White;
+			    color:#20232d;
+			    font-family: 'Open Sans', sans-serif;
+			    font-size: 12px;
+
+			}
+			th{
+				font-weight: normal;
+				text-align: left;
+				color:grey;
+				padding:8px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="Spacer" style="height:25px"></div>
+		<div id = "dropdown">
+			<ul>
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="about.html">ABOUT</a></li>
+		        <li>
+		            <a href="work.html">STATS</a>
+		            <ul class="dropdown">
+		                <li><a href="Scores.html">SCORES</a></li>
+		                <li><a href="records.html">RECORDS</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="schedule.html">SCHEDULE</a></li>
+		        <li><a href="Scores.html">MATCH RESULTS</a></li>
+		        <li><a href="blog.html">BLOG</a></li>
+
+		    </ul>
+		</div>
+		<div style= "width:23%; height: 49.5px; position: absolute; padding-left: 10%;box-sizing: border-box;top:45px;">
+			<img src = "logo1.png" width = "61.075" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 20px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>
+		<div style="position: relative;background-color:#F3F3F3; height: 200%;">
+			<p style="text-align: center;font-size: 39px; font-family: 'Oswald', sans-serif; padding-top:3%; color: #20232d"><b>SCHEDULE</b></p>
+			<table align = "center" style="border-color:#F3F3F3;">
+			  <tr>
+			    <th>Date</th>
+			    <th>Home</th>
+			    <th>Away</th>
+			    <th>Time</th>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Chicago Bulls</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Indiana Pacers</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>24 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Houston Rockets</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>25 Oct</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>26 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>26 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>27 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>27 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>28 Oct</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>28 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>30 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>30 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>30 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>31 Oct</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>31 Oct</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>31 Oct</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>31 Oct</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>31 Oct</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>1 Nov</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>1 Nov</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>1 Nov</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>2 Nov</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>2 Nov</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>3 Nov</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>4 Nov</td>
+			    <td>Los Angeles Clippers</td>
+			    <td>Denver Nuggets</td>
+			    <td>10:00 AM</td>
+			  </tr>
+			  <tr>
+			    <td>4 Nov</td>
+			    <td>Sacramento Kings</td>
+			    <td>Boston Celtics</td>
+			    <td> 12:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>5 Nov</td>
+			    <td>Indiana Pacers</td>
+			    <td>Miami Heat</td>
+			    <td> 12:45 PM</td>
+			  </tr>
+			  <tr>
+			    <td>6 Nov</td>
+			    <td>San Antonio Spurs</td>
+			    <td>Toronto Raptors</td>
+			    <td> 4:30 PM</td>
+			  </tr>
+			  <tr>
+			    <td>7 Nov</td>
+			    <td>Dallas Mavericks</td>
+			    <td>Oklahoma City Thunder</td>
+			    <td> 7:30 PM</td>
+			  </tr>
+			
+			 
+		</div>
+	</body>
+</html>

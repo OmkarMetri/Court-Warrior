@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Awards</title>
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+
+		<style type="text/css">
+		    ul{
+		        padding: 0;
+		        list-style: none;
+		        background: Black;
+		    }
+		    ul li{
+		        display: inline-block;
+		        position: relative;
+		        line-height: 21px;
+		        text-align: left;
+		    }
+		    ul li a{
+		        display: block;
+		        padding: 8px 25px;
+		        color: White;
+		        text-decoration: none;
+		        font-family: 'Oswald', sans-serif;
+
+		    }
+		    ul li a:hover{
+		        color: Red;
+		        background: Black;
+		        font-family: 'Oswald', sans-serif;
+
+
+		    }
+		    ul li ul.dropdown{
+		        min-width: 100%; /* Set width of the dropdown */
+		        background: Black;
+		        display: none;
+		        position: absolute;
+		        z-index: 999;
+		        left: 0;
+		        font-size: 14px;
+		    }
+		    ul li:hover ul.dropdown{
+		        display: block;	/* Display the dropdown */
+		    }
+		    ul li ul.dropdown li{
+		        display: block;
+		    }
+		    #dropdown {
+		    	position: relative;
+		    	text-align: right;
+		    	box-sizing: border-box;
+		    	right:10%;
+		    	padding-top: 10px;
+		    	padding-bottom: 10px;
+
+		    }
+		  
+
+		</style>
+	</head>
+	<body>
+		<div class="Spacer" style="height:25px"></div>
+		<div id = "dropdown">
+			<ul>
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="about.html">ABOUT</a></li>
+		        <li>
+		            <a href="work.html">STATS</a>
+		            <ul class="dropdown">
+		                <li><a href="Scores.html">SCORES</a></li>
+		                <li><a href="records.html">RECORDS</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="schedule.html">SCHEDULE</a></li>
+		        <li><a href="Scores.html">MATCH RESULTS</a></li>
+		        <li><a href="blog.html">BLOG</a></li>
+
+		    </ul>
+		</div>
+		<div style= "width:23%; height: 49.5px; position: absolute; padding-left: 10%;box-sizing: border-box;top:45px;">
+			<img src = "logo1.png" width = "61.075" style="position: absolute;">
+			<a href = "index.html" style = "position: absolute; font-family: 'Oswald', sans-serif;color: White; font-weight: bold;font-size: 20px;text-decoration: none; left: 65%;">COURT WARRIOR</a>
+		</div>
+		<div style="background-color: White; height: 190%;position: relative;">
+			<div style="position: relative;">
+				<img src="mvp.jpg" style="width: 30%; position: absolute;top:100px;left:10%;">
+				<p style="color:Black; font-family: 'Oswald', sans-serif; font-size: 55px;position: absolute;left:50%;">MOST VALUABLE PLAYER</p>
+				<p style="color:#919191; font-family: 'Open Sans', sans-serif; font-size: 20px; position: absolute;top:150px;left:50%;">Russell Westbrook<br/><br/>(31.6PPG/10.4APG/10.7RPG)	</p>
+			</div>
+
+			<div style="position: relative;top:400px;">
+				<img src="dpoy.png" style="width: 30%; position: absolute;top:100px;left:60%;">
+				<p style="color:Black; font-family: 'Oswald', sans-serif; font-size: 55px;position: absolute;left:5%;">DEFENSIVE PLAYER OF THE YEAR</p>
+				<p style="color:#919191; font-family: 'Open Sans', sans-serif; font-size: 20px; position: absolute;top:150px;left:5%;">Draymond Green<br/><br/>(1.4BPG/2.0SPG/7.9RPG)	</p>
+			</div>
+			<div style="position: relative;top:800px;">
+				<img src="roy.jpg" style="width: 30%; position: absolute;top:100px;left:10%;">
+				<p style="color:Black; font-family: 'Oswald', sans-serif; font-size: 55px;position: absolute;left:50%;">ROOKIE OF THE YEAR</p>
+				<p style="color:#919191; font-family: 'Open Sans', sans-serif; font-size: 20px; position: absolute;top:150px;left:50%;">Malcolm Brogdon<br/><br/>(10.2PPG/4.2APG/2.8RPG)	</p>
+			</div>
+		</div>
+
+
+
+	</body>
+</html>
